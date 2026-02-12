@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Models (large files - DO NOT commit to GitHub)
+models/whisper/*.bin
+models/whisper/*.pt
+models/whisper/*.onnx
+models/argos/*.argosmodel
+models/piper/*.onnx
+models/piper/*.onnx.json
+# Keep .gitkeep files
+!models/*/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS
+Thumbs.db
+.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+*.bak
+*.swp
+*~.nib
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Testing
+.coverage
+.tox/
+.nox/
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Secrets (extra safety)
+secrets/
+credentials/
+*.key
+*.pem
+*.cert
+
+# Large downloads
+downloads/
+*.tar.gz
+*.zip
+!TalkFlow*.tar.gz
+
+# Database
+*.db
+*.sqlite
+*.sqlite3

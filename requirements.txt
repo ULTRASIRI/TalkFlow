@@ -1,0 +1,35 @@
+# TalkFlow Requirements
+# Python 3.9+ (tested with 3.13)
+
+# Web Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+websockets>=13.0
+
+# ASR (Automatic Speech Recognition)
+faster-whisper>=1.1.0
+torch>=2.5.0
+torchaudio>=2.5.0
+
+# VAD (Voice Activity Detection)
+# Silero VAD will be loaded via torch.hub
+
+# Translation
+argostranslate>=1.9.1
+
+# TTS (Text-to-Speech)
+piper-tts>=1.2.0
+
+# Audio Processing
+numpy>=1.26.0
+scipy>=1.11.0
+
+# Utilities
+python-multipart>=0.0.12
+aiofiles>=24.0.0
+
+# Optional: For better performance
+numba>=0.60.0  # Optional, speeds up some operations
+
+# Additional for system info
+psutil>=6.0.0  # For verify.py
